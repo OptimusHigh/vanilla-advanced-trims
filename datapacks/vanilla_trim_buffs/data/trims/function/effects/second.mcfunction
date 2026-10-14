@@ -5,7 +5,7 @@ scoreboard players set @s trims.timer 0
 execute if entity @s[tag=trims.synergy_warden,predicate=trims:is_sneaking] run effect give @s minecraft:regeneration 2 0 true
 
 # 2. Око Бездны (Ночное зрение на глубине ниже Y=0 при зажатом Shift)
-execute if entity @s[tag=trims.synergy_void_eye,predicate=trims:is_sneaking] at @s if entity @s[y=..0] run effect give @s minecraft:night_vision 5 0 true
+execute if entity @s[tag=trims.synergy_void_eye,predicate=trims:is_sneaking] if predicate trims:is_below_y0 run effect give @s minecraft:night_vision 5 0 true
 
 # 3. Глубинный Владыка (Conduit Power под водой)
 execute if entity @s[tag=trims.synergy_abyssal] at @s if block ~ ~ ~ minecraft:water run effect give @s minecraft:conduit_power 3 0 true
