@@ -4,7 +4,7 @@
     "mode": "replace_all",
     "lore": [
       {
-        "text": "◆ Узор [Дикий]: Сет-бонус к мобильности и скорости атаки (2/4, 4/4)",
+        "text": "◆ Узор [Дикий]: Сет-бонус к скорости атаки и бега (2/4, 4/4)",
         "color": "green",
         "italic": false
       }
@@ -12,6 +12,6 @@
   },
   {
     "function": "minecraft:set_custom_data",
-    "tag": "{trim_lore_pat:\"wild\"}"
+    "tag": "{trim_lore_active:1b,trim_lore_pat:\"wild\",trim_lore_syn:\"none\"}"
   }
 ]

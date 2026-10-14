@@ -6,6 +6,6 @@
   },
   {
     "function": "minecraft:set_custom_data",
-    "tag": "{trim_lore_pat:\"none\",trim_lore_mat:\"none\",trim_lore_syn:\"none\"}"
+    "tag": "{trim_lore_active:0b,trim_lore_pat:\"none\",trim_lore_mat:\"none\",trim_lore_syn:\"none\"}"
   }
 ]

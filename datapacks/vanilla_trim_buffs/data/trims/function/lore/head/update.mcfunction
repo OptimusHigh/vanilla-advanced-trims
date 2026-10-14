@@ -1,4 +1,4 @@
-# Полная пересборка лора для armor.head
+# Перезапись лора для armor.head
 # 1. Запись узора (replace_all)
 execute if items entity @s armor.head *[minecraft:trim~{pattern:"minecraft:coast"}] run item modify entity @s armor.head trims:pattern/coast
 execute if items entity @s armor.head *[minecraft:trim~{pattern:"minecraft:dune"}] run item modify entity @s armor.head trims:pattern/dune

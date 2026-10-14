@@ -5,8 +5,8 @@ execute if items entity @s armor.chest *[minecraft:trim~{pattern:"minecraft:wild
 execute if items entity @s armor.legs *[minecraft:trim~{pattern:"minecraft:wild"}] run scoreboard players add @s trims.count 1
 execute if items entity @s armor.feet *[minecraft:trim~{pattern:"minecraft:wild"}] run scoreboard players add @s trims.count 1
 
-# Малый сет-бонус (2+ предмета)
-execute if score @s trims.count matches 2.. run attribute @s minecraft:attack_speed modifier add trims:set_2pc 0.05 add_multiplied_base
+# Малый сет-бонус (2+ предмета) - Уникальный ID для поддержки билдов 2+2
+execute if score @s trims.count matches 2.. run attribute @s minecraft:attack_speed modifier add trims:set_2pc_wild 0.05 add_multiplied_base
 execute if score @s trims.count matches 2.. run tag @s add trims.has_set_2pc
 
 # Полный сет-бонус (4 предмета)

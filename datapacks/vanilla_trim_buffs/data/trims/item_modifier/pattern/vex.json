@@ -4,7 +4,7 @@
     "mode": "replace_all",
     "lore": [
       {
-        "text": "◆ Узор [Вредина]: Сет-бонус к парению и защите от падений (2/4, 4/4)",
+        "text": "◆ Узор [Вредина]: Сет-бонус к компактности и парению (2/4, 4/4)",
         "color": "gray",
         "italic": false
       }
@@ -12,6 +12,6 @@
   },
   {
     "function": "minecraft:set_custom_data",
-    "tag": "{trim_lore_pat:\"vex\"}"
+    "tag": "{trim_lore_active:1b,trim_lore_pat:\"vex\",trim_lore_syn:\"none\"}"
   }
 ]

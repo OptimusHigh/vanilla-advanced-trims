@@ -4,7 +4,7 @@
     "mode": "replace_all",
     "lore": [
       {
-        "text": "◆ Узор [Хранитель]: Сет-бонус к защите от магии и звука Вардена (2/4, 4/4)",
+        "text": "◆ Узор [Хранитель]: Сет-бонус к твёрдости брони и стойкости (2/4, 4/4)",
         "color": "dark_aqua",
         "italic": false
       }
@@ -12,6 +12,6 @@
   },
   {
     "function": "minecraft:set_custom_data",
-    "tag": "{trim_lore_pat:\"ward\"}"
+    "tag": "{trim_lore_active:1b,trim_lore_pat:\"ward\",trim_lore_syn:\"none\"}"
   }
 ]

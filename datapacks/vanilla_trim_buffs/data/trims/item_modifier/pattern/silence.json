@@ -4,7 +4,7 @@
     "mode": "replace_all",
     "lore": [
       {
-        "text": "◆ Узор [Тишина]: Сет-бонус к полной скрытности от скалка (2/4, 4/4)",
+        "text": "◆ Узор [Тишина]: Сет-бонус к скорости на корточках и бегу (2/4, 4/4)",
         "color": "dark_purple",
         "italic": false
       }
@@ -12,6 +12,6 @@
   },
   {
     "function": "minecraft:set_custom_data",
-    "tag": "{trim_lore_pat:\"silence\"}"
+    "tag": "{trim_lore_active:1b,trim_lore_pat:\"silence\",trim_lore_syn:\"none\"}"
   }
 ]

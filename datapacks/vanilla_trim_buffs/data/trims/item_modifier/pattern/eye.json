@@ -4,7 +4,7 @@
     "mode": "replace_all",
     "lore": [
       {
-        "text": "◆ Узор [Око]: Сет-бонус к подсветке врагов и скрытности (2/4, 4/4)",
+        "text": "◆ Узор [Око]: Сет-бонус к дистанции атаки и скрытности (2/4, 4/4)",
         "color": "dark_green",
         "italic": false
       }
@@ -12,6 +12,6 @@
   },
   {
     "function": "minecraft:set_custom_data",
-    "tag": "{trim_lore_pat:\"eye\"}"
+    "tag": "{trim_lore_active:1b,trim_lore_pat:\"eye\",trim_lore_syn:\"none\"}"
   }
 ]

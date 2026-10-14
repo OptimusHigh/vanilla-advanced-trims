@@ -4,7 +4,7 @@
     "mode": "replace_all",
     "lore": [
       {
-        "text": "◆ Узор [Прилив]: Сет-бонус к урону и скорости в океане (2/4, 4/4)",
+        "text": "◆ Узор [Прилив]: Сет-бонус к скорости в воде и силе удара (2/4, 4/4)",
         "color": "blue",
         "italic": false
       }
@@ -12,6 +12,6 @@
   },
   {
     "function": "minecraft:set_custom_data",
-    "tag": "{trim_lore_pat:\"tide\"}"
+    "tag": "{trim_lore_active:1b,trim_lore_pat:\"tide\",trim_lore_syn:\"none\"}"
   }
 ]

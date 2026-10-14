@@ -1,8 +1,9 @@
-# ==========================================
-# Модульная очистка модификаторов и состояния trims:*
-# ==========================================
+# ======================================================
+# Модульная очистка модификаторов и состояния trims:* (26.3)
+# ======================================================
 
 # 1. Сброс модификаторов слотов (head, chest, legs, feet)
+# Слот head
 attribute @s minecraft:armor_toughness modifier remove trims:head_mat
 attribute @s minecraft:step_height modifier remove trims:head_mat
 attribute @s minecraft:block_break_speed modifier remove trims:head_mat
@@ -17,6 +18,7 @@ attribute @s minecraft:burning_time modifier remove trims:head_mat
 attribute @s minecraft:explosion_knockback_resistance modifier remove trims:head_mat
 attribute @s minecraft:block_interaction_range modifier remove trims:head_mat
 
+# Слот chest
 attribute @s minecraft:armor_toughness modifier remove trims:chest_mat
 attribute @s minecraft:step_height modifier remove trims:chest_mat
 attribute @s minecraft:block_break_speed modifier remove trims:chest_mat
@@ -31,6 +33,7 @@ attribute @s minecraft:burning_time modifier remove trims:chest_mat
 attribute @s minecraft:explosion_knockback_resistance modifier remove trims:chest_mat
 attribute @s minecraft:block_interaction_range modifier remove trims:chest_mat
 
+# Слот legs
 attribute @s minecraft:armor_toughness modifier remove trims:legs_mat
 attribute @s minecraft:step_height modifier remove trims:legs_mat
 attribute @s minecraft:block_break_speed modifier remove trims:legs_mat
@@ -45,6 +48,7 @@ attribute @s minecraft:burning_time modifier remove trims:legs_mat
 attribute @s minecraft:explosion_knockback_resistance modifier remove trims:legs_mat
 attribute @s minecraft:block_interaction_range modifier remove trims:legs_mat
 
+# Слот feet
 attribute @s minecraft:armor_toughness modifier remove trims:feet_mat
 attribute @s minecraft:step_height modifier remove trims:feet_mat
 attribute @s minecraft:block_break_speed modifier remove trims:feet_mat
@@ -59,23 +63,27 @@ attribute @s minecraft:burning_time modifier remove trims:feet_mat
 attribute @s minecraft:explosion_knockback_resistance modifier remove trims:feet_mat
 attribute @s minecraft:block_interaction_range modifier remove trims:feet_mat
 
-# 2. Сброс сет-бонусов (trims:set_2pc)
-attribute @s minecraft:submerged_mining_speed modifier remove trims:set_2pc
-attribute @s minecraft:fall_damage_multiplier modifier remove trims:set_2pc
-attribute @s minecraft:attack_speed modifier remove trims:set_2pc
-attribute @s minecraft:movement_efficiency modifier remove trims:set_2pc
-attribute @s minecraft:block_interaction_range modifier remove trims:set_2pc
-attribute @s minecraft:entity_interaction_range modifier remove trims:set_2pc
-attribute @s minecraft:follow_range modifier remove trims:set_2pc
-attribute @s minecraft:knockback_resistance modifier remove trims:set_2pc
-attribute @s minecraft:scale modifier remove trims:set_2pc
-attribute @s minecraft:burning_time modifier remove trims:set_2pc
-attribute @s minecraft:attack_damage modifier remove trims:set_2pc
-attribute @s minecraft:safe_fall_distance modifier remove trims:set_2pc
-attribute @s minecraft:armor_toughness modifier remove trims:set_2pc
-attribute @s minecraft:sneaking_speed modifier remove trims:set_2pc
+# 2. Сброс уникальных малых сет-бонусов (trims:set_2pc_<pattern>) для поддержки 2+2
+attribute @s minecraft:submerged_mining_speed modifier remove trims:set_2pc_coast
+attribute @s minecraft:fall_damage_multiplier modifier remove trims:set_2pc_dune
+attribute @s minecraft:attack_speed modifier remove trims:set_2pc_wild
+attribute @s minecraft:movement_efficiency modifier remove trims:set_2pc_wayfinder
+attribute @s minecraft:block_interaction_range modifier remove trims:set_2pc_raiser
+attribute @s minecraft:entity_interaction_range modifier remove trims:set_2pc_shaper
+attribute @s minecraft:sweeping_damage_ratio modifier remove trims:set_2pc_host
+attribute @s minecraft:knockback_resistance modifier remove trims:set_2pc_sentry
+attribute @s minecraft:scale modifier remove trims:set_2pc_vex
+attribute @s minecraft:submerged_mining_speed modifier remove trims:set_2pc_tide
+attribute @s minecraft:burning_time modifier remove trims:set_2pc_snout
+attribute @s minecraft:attack_damage modifier remove trims:set_2pc_rib
+attribute @s minecraft:safe_fall_distance modifier remove trims:set_2pc_flow
+attribute @s minecraft:attack_speed modifier remove trims:set_2pc_bolt
+attribute @s minecraft:entity_interaction_range modifier remove trims:set_2pc_eye
+attribute @s minecraft:safe_fall_distance modifier remove trims:set_2pc_spire
+attribute @s minecraft:armor_toughness modifier remove trims:set_2pc_ward
+attribute @s minecraft:sneaking_speed modifier remove trims:set_2pc_silence
 
-# 3. Сброс сет-бонусов (trims:set_4pc)
+# 3. Сброс полных сет-бонусов (trims:set_4pc)
 attribute @s minecraft:water_movement_efficiency modifier remove trims:set_4pc
 attribute @s minecraft:step_height modifier remove trims:set_4pc
 attribute @s minecraft:movement_efficiency modifier remove trims:set_4pc
@@ -93,7 +101,7 @@ attribute @s minecraft:attack_damage modifier remove trims:set_4pc
 attribute @s minecraft:explosion_knockback_resistance modifier remove trims:set_4pc
 attribute @s minecraft:attack_speed modifier remove trims:set_4pc
 attribute @s minecraft:entity_interaction_range modifier remove trims:set_4pc
-attribute @s minecraft:follow_range modifier remove trims:set_4pc
+attribute @s minecraft:sneaking_speed modifier remove trims:set_4pc
 attribute @s minecraft:knockback_resistance modifier remove trims:set_4pc
 
 # 4. Сброс синергий (trims:synergy_<slot>)
@@ -102,10 +110,8 @@ attribute @s minecraft:burning_time modifier remove trims:synergy_chest
 attribute @s minecraft:block_interaction_range modifier remove trims:synergy_chest
 attribute @s minecraft:mining_efficiency modifier remove trims:synergy_chest
 attribute @s minecraft:knockback_resistance modifier remove trims:synergy_chest
-
 attribute @s minecraft:sneaking_speed modifier remove trims:synergy_legs
 attribute @s minecraft:knockback_resistance modifier remove trims:synergy_legs
-
 attribute @s minecraft:step_height modifier remove trims:synergy_feet
 attribute @s minecraft:safe_fall_distance modifier remove trims:synergy_feet
 attribute @s minecraft:movement_speed modifier remove trims:synergy_feet

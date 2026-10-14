@@ -4,7 +4,7 @@
     "mode": "replace_all",
     "lore": [
       {
-        "text": "◆ Узор [Рыло]: Сет-бонус к нейтралитету пиглинов и взрывам (2/4, 4/4)",
+        "text": "◆ Узор [Рыло]: Сет-бонус к огнестойкости и защите от взрывов (2/4, 4/4)",
         "color": "gold",
         "italic": false
       }
@@ -12,6 +12,6 @@
   },
   {
     "function": "minecraft:set_custom_data",
-    "tag": "{trim_lore_pat:\"snout\"}"
+    "tag": "{trim_lore_active:1b,trim_lore_pat:\"snout\",trim_lore_syn:\"none\"}"
   }
 ]

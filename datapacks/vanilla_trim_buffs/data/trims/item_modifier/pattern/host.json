@@ -4,7 +4,7 @@
     "mode": "replace_all",
     "lore": [
       {
-        "text": "◆ Узор [Ведущий]: Сет-бонус к удаче и маскировке от мобов (2/4, 4/4)",
+        "text": "◆ Узор [Ведущий]: Сет-бонус к круговому взмаху и удаче (2/4, 4/4)",
         "color": "light_purple",
         "italic": false
       }
@@ -12,6 +12,6 @@
   },
   {
     "function": "minecraft:set_custom_data",
-    "tag": "{trim_lore_pat:\"host\"}"
+    "tag": "{trim_lore_active:1b,trim_lore_pat:\"host\",trim_lore_syn:\"none\"}"
   }
 ]

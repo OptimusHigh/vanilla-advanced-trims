@@ -4,7 +4,7 @@
     "mode": "replace_all",
     "lore": [
       {
-        "text": "◆ Узор [Береговой]: Сет-бонус к скорости в воде и дыханию (2/4, 4/4)",
+        "text": "◆ Узор [Береговой]: Сет-бонус к скорости в воде и добыче (2/4, 4/4)",
         "color": "aqua",
         "italic": false
       }
@@ -12,6 +12,6 @@
   },
   {
     "function": "minecraft:set_custom_data",
-    "tag": "{trim_lore_pat:\"coast\"}"
+    "tag": "{trim_lore_active:1b,trim_lore_pat:\"coast\",trim_lore_syn:\"none\"}"
   }
 ]

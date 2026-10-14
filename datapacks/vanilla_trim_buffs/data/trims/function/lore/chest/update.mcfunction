@@ -1,4 +1,4 @@
-# Полная пересборка лора для armor.chest
+# Перезапись лора для armor.chest
 # 1. Запись узора (replace_all)
 execute if items entity @s armor.chest *[minecraft:trim~{pattern:"minecraft:coast"}] run item modify entity @s armor.chest trims:pattern/coast
 execute if items entity @s armor.chest *[minecraft:trim~{pattern:"minecraft:dune"}] run item modify entity @s armor.chest trims:pattern/dune

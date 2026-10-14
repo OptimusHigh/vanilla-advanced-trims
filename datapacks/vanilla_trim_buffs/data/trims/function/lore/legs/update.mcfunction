@@ -1,4 +1,4 @@
-# Полная пересборка лора для armor.legs
+# Перезапись лора для armor.legs
 # 1. Запись узора (replace_all)
 execute if items entity @s armor.legs *[minecraft:trim~{pattern:"minecraft:coast"}] run item modify entity @s armor.legs trims:pattern/coast
 execute if items entity @s armor.legs *[minecraft:trim~{pattern:"minecraft:dune"}] run item modify entity @s armor.legs trims:pattern/dune

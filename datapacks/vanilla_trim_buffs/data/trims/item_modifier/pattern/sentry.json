@@ -12,6 +12,6 @@
   },
   {
     "function": "minecraft:set_custom_data",
-    "tag": "{trim_lore_pat:\"sentry\"}"
+    "tag": "{trim_lore_active:1b,trim_lore_pat:\"sentry\",trim_lore_syn:\"none\"}"
   }
 ]

@@ -4,7 +4,7 @@
     "mode": "replace_all",
     "lore": [
       {
-        "text": "◆ Узор [Следопыт]: Сет-бонус к исследованию и авто-шагу (2/4, 4/4)",
+        "text": "◆ Узор [Следопыт]: Сет-бонус к исследованию и высоте шага (2/4, 4/4)",
         "color": "gold",
         "italic": false
       }
@@ -12,6 +12,6 @@
   },
   {
     "function": "minecraft:set_custom_data",
-    "tag": "{trim_lore_pat:\"wayfinder\"}"
+    "tag": "{trim_lore_active:1b,trim_lore_pat:\"wayfinder\",trim_lore_syn:\"none\"}"
   }
 ]

@@ -1,7 +1,7 @@
 # Проверка необходимости обновления лора на armor.feet
-# Сброс лора, если отделка была снята, но осталась метка
-execute unless items entity @s armor.feet *[minecraft:trim] if items entity @s armor.feet *[minecraft:custom_data~{trim_lore_pat:"none"}] run return 1
-execute unless items entity @s armor.feet *[minecraft:trim] if items entity @s armor.feet *[minecraft:custom_data] run item modify entity @s armor.feet trims:clear
+# Защита от цикла: если нет трима, чистим ТОЛЬКО если есть активная метка trim_lore_active:1b
+execute unless items entity @s armor.feet *[minecraft:trim] if items entity @s armor.feet *[minecraft:custom_data~{trim_lore_active:1b}] run item modify entity @s armor.feet trims:clear
+execute unless items entity @s armor.feet *[minecraft:trim] run return 1
 
 # Проверка изменения узора
 execute if items entity @s armor.feet *[minecraft:trim~{pattern:"minecraft:coast"}] unless items entity @s armor.feet *[minecraft:custom_data~{trim_lore_pat:"coast"}] run return run function trims:lore/feet/update

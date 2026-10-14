@@ -4,7 +4,7 @@
     "mode": "replace_all",
     "lore": [
       {
-        "text": "◆ Узор [Формовщик]: Сет-бонус к круговому взмаху мечом (2/4, 4/4)",
+        "text": "◆ Узор [Формовщик]: Сет-бонус к дистанции и взмаху меча (2/4, 4/4)",
         "color": "dark_aqua",
         "italic": false
       }
@@ -12,6 +12,6 @@
   },
   {
     "function": "minecraft:set_custom_data",
-    "tag": "{trim_lore_pat:\"shaper\"}"
+    "tag": "{trim_lore_active:1b,trim_lore_pat:\"shaper\",trim_lore_syn:\"none\"}"
   }
 ]
