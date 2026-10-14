@@ -1,17 +1,20 @@
-[
-  {
-    "function": "minecraft:set_lore",
-    "mode": "append",
-    "lore": [
-      {
-        "text": "★ Иссушающий бастион: +2 твёрдости и снятие иссушения",
-        "color": "dark_red",
-        "italic": false
-      }
-    ]
-  },
-  {
-    "function": "minecraft:set_custom_data",
-    "tag": "{trim_lore_syn:\"wither\"}"
-  }
-]
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:set_lore",
+      "mode": "append",
+      "lore": [
+        {
+          "text": "★ Иссушающий бастион: +2 твёрдости и снятие иссушения",
+          "color": "dark_red",
+          "italic": false
+        }
+      ]
+    },
+    {
+      "type": "minecraft:set_custom_data",
+      "tag": "{trim_lore_syn:\"wither\"}"
+    }
+  ]
+}

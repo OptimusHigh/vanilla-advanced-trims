@@ -1,17 +1,20 @@
-[
-  {
-    "function": "minecraft:set_lore",
-    "mode": "append",
-    "lore": [
-      {
-        "text": "★ Глубинный владыка: +5 с воздуха и сила источника в воде",
-        "color": "blue",
-        "italic": false
-      }
-    ]
-  },
-  {
-    "function": "minecraft:set_custom_data",
-    "tag": "{trim_lore_syn:\"abyssal\"}"
-  }
-]
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:set_lore",
+      "mode": "append",
+      "lore": [
+        {
+          "text": "★ Глубинный владыка: +5 с воздуха и сила источника в воде",
+          "color": "blue",
+          "italic": false
+        }
+      ]
+    },
+    {
+      "type": "minecraft:set_custom_data",
+      "tag": "{trim_lore_syn:\"abyssal\"}"
+    }
+  ]
+}

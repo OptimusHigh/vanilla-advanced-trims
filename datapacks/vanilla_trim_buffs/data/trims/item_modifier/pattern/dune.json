@@ -1,17 +1,20 @@
-[
-  {
-    "function": "minecraft:set_lore",
-    "mode": "replace_all",
-    "lore": [
-      {
-        "text": "◆ Дюны | 2/4: -15% урона падения | 4/4: +0.2 шага, +25% проходимости",
-        "color": "yellow",
-        "italic": false
-      }
-    ]
-  },
-  {
-    "function": "minecraft:set_custom_data",
-    "tag": "{trim_lore_active:1b,trim_lore_pat:\"dune\",trim_lore_syn:\"none\"}"
-  }
-]
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:set_lore",
+      "mode": "replace_all",
+      "lore": [
+        {
+          "text": "◆ Дюны | 2/4: -15% урона падения | 4/4: +0.2 шага, +25% проходимости",
+          "color": "yellow",
+          "italic": false
+        }
+      ]
+    },
+    {
+      "type": "minecraft:set_custom_data",
+      "tag": "{trim_lore_active:1b,trim_lore_pat:\"dune\",trim_lore_syn:\"none\"}"
+    }
+  ]
+}

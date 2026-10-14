@@ -1,17 +1,20 @@
-[
-  {
-    "function": "minecraft:set_lore",
-    "mode": "append",
-    "lore": [
-      {
-        "text": "◈ Смола: +0.25 дальности строительства",
-        "color": "gold",
-        "italic": false
-      }
-    ]
-  },
-  {
-    "function": "minecraft:set_custom_data",
-    "tag": "{trim_lore_mat:\"resin\"}"
-  }
-]
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:set_lore",
+      "mode": "append",
+      "lore": [
+        {
+          "text": "◈ Смола: +0.25 дальности строительства",
+          "color": "gold",
+          "italic": false
+        }
+      ]
+    },
+    {
+      "type": "minecraft:set_custom_data",
+      "tag": "{trim_lore_mat:\"resin\"}"
+    }
+  ]
+}

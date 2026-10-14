@@ -1,17 +1,20 @@
-[
-  {
-    "function": "minecraft:set_lore",
-    "mode": "replace_all",
-    "lore": [
-      {
-        "text": "◆ Рыло | 2/4: -25% времени горения | 4/4: +30% взрывоустойчивости",
-        "color": "gold",
-        "italic": false
-      }
-    ]
-  },
-  {
-    "function": "minecraft:set_custom_data",
-    "tag": "{trim_lore_active:1b,trim_lore_pat:\"snout\",trim_lore_syn:\"none\"}"
-  }
-]
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:set_lore",
+      "mode": "replace_all",
+      "lore": [
+        {
+          "text": "◆ Рыло | 2/4: -25% времени горения | 4/4: +30% взрывоустойчивости",
+          "color": "gold",
+          "italic": false
+        }
+      ]
+    },
+    {
+      "type": "minecraft:set_custom_data",
+      "tag": "{trim_lore_active:1b,trim_lore_pat:\"snout\",trim_lore_syn:\"none\"}"
+    }
+  ]
+}

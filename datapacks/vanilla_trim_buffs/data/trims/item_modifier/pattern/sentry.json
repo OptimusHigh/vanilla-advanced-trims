@@ -1,17 +1,20 @@
-[
-  {
-    "function": "minecraft:set_lore",
-    "mode": "replace_all",
-    "lore": [
-      {
-        "text": "◆ Часовой | 2/4: +15% анти-откидывания | 4/4: +1.5 твёрдости, +0.25 отдачи",
-        "color": "dark_gray",
-        "italic": false
-      }
-    ]
-  },
-  {
-    "function": "minecraft:set_custom_data",
-    "tag": "{trim_lore_active:1b,trim_lore_pat:\"sentry\",trim_lore_syn:\"none\"}"
-  }
-]
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:set_lore",
+      "mode": "replace_all",
+      "lore": [
+        {
+          "text": "◆ Часовой | 2/4: +15% анти-откидывания | 4/4: +1.5 твёрдости, +0.25 отдачи",
+          "color": "dark_gray",
+          "italic": false
+        }
+      ]
+    },
+    {
+      "type": "minecraft:set_custom_data",
+      "tag": "{trim_lore_active:1b,trim_lore_pat:\"sentry\",trim_lore_syn:\"none\"}"
+    }
+  ]
+}

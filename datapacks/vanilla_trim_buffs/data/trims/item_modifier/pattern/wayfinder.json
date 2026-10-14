@@ -1,17 +1,20 @@
-[
-  {
-    "function": "minecraft:set_lore",
-    "mode": "replace_all",
-    "lore": [
-      {
-        "text": "◆ Искатель | 2/4: +15% проходимости | 4/4: +0.25 шага, +2.5 блока падения",
-        "color": "gold",
-        "italic": false
-      }
-    ]
-  },
-  {
-    "function": "minecraft:set_custom_data",
-    "tag": "{trim_lore_active:1b,trim_lore_pat:\"wayfinder\",trim_lore_syn:\"none\"}"
-  }
-]
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:set_lore",
+      "mode": "replace_all",
+      "lore": [
+        {
+          "text": "◆ Искатель | 2/4: +15% проходимости | 4/4: +0.25 шага, +2.5 блока падения",
+          "color": "gold",
+          "italic": false
+        }
+      ]
+    },
+    {
+      "type": "minecraft:set_custom_data",
+      "tag": "{trim_lore_active:1b,trim_lore_pat:\"wayfinder\",trim_lore_syn:\"none\"}"
+    }
+  ]
+}

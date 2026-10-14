@@ -1,17 +1,20 @@
-[
-  {
-    "function": "minecraft:set_lore",
-    "mode": "replace_all",
-    "lore": [
-      {
-        "text": "◆ Прилив | 2/4: +50% копания в воде | 4/4: +35% скорости в воде, +1 урона",
-        "color": "blue",
-        "italic": false
-      }
-    ]
-  },
-  {
-    "function": "minecraft:set_custom_data",
-    "tag": "{trim_lore_active:1b,trim_lore_pat:\"tide\",trim_lore_syn:\"none\"}"
-  }
-]
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:set_lore",
+      "mode": "replace_all",
+      "lore": [
+        {
+          "text": "◆ Прилив | 2/4: +50% копания в воде | 4/4: +35% скорости в воде, +1 урона",
+          "color": "blue",
+          "italic": false
+        }
+      ]
+    },
+    {
+      "type": "minecraft:set_custom_data",
+      "tag": "{trim_lore_active:1b,trim_lore_pat:\"tide\",trim_lore_syn:\"none\"}"
+    }
+  ]
+}

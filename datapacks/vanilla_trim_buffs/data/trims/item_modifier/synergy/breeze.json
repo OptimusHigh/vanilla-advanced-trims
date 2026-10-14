@@ -1,17 +1,20 @@
-[
-  {
-    "function": "minecraft:set_lore",
-    "mode": "append",
-    "lore": [
-      {
-        "text": "★ Штормовой порыв: +0.3 шага, +3 блока падения, вихрь при прыжке",
-        "color": "aqua",
-        "italic": false
-      }
-    ]
-  },
-  {
-    "function": "minecraft:set_custom_data",
-    "tag": "{trim_lore_syn:\"breeze\"}"
-  }
-]
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:set_lore",
+      "mode": "append",
+      "lore": [
+        {
+          "text": "★ Штормовой порыв: +0.3 шага, +3 блока падения, вихрь при прыжке",
+          "color": "aqua",
+          "italic": false
+        }
+      ]
+    },
+    {
+      "type": "minecraft:set_custom_data",
+      "tag": "{trim_lore_syn:\"breeze\"}"
+    }
+  ]
+}
