@@ -1,3 +1,3 @@
-# Оповещение об активации синергии: Древний Зодчий
-playsound minecraft:block.smithing_table.use player @s ~ ~ ~ 1.0 0.9
-title @s actionbar [{"text":"✦ Активирована синергия: ","color":"gray","bold":true},{"text":"Древний Зодчий ","color":"white","bold":true},{"text":"[Нагрудник: Сборщик + Смола]","color":"gray"}]
+# Оповещение об активации: Древний зодчий
+playsound minecraft:block.amethyst_block.chime player @s ~ ~ ~ 1.0 1.2
+title @s actionbar [{"text":"★ Древний зодчий: ","color":"white","bold":true},{"text":"+0.75 дальности стройки, +25% скорости копания","color":"gray"}]

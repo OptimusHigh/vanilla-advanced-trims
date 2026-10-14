@@ -1,3 +1,3 @@
-# Оповещение об активации синергии: Атлас Пустыни
-playsound minecraft:block.amethyst_block.chime player @s ~ ~ ~ 1.0 1.0
-title @s actionbar [{"text":"✦ Активирована синергия: ","color":"yellow","bold":true},{"text":"Атлас Пустыни ","color":"gold","bold":true},{"text":"[Поножи: Дюна + Железо]","color":"gray"}]
+# Оповещение об активации: Атлас пустыни
+playsound minecraft:block.amethyst_block.chime player @s ~ ~ ~ 1.0 1.2
+title @s actionbar [{"text":"★ Атлас пустыни: ","color":"yellow","bold":true},{"text":"+35% анти-откидывания и огнеупорная поступь","color":"gray"}]

@@ -4,7 +4,7 @@
     "mode": "append",
     "lore": [
       {
-        "text": "◈ Материал [Алмаз]: +1.0 HP (+0.5 сердца)",
+        "text": "◈ Алмаз: +1 HP",
         "color": "aqua",
         "italic": false
       }
