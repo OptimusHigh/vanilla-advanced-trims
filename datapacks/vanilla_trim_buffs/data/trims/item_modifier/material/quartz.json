@@ -1,0 +1,17 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "mode": "append",
+    "lore": [
+      {
+        "text": "◈ Материал [Кварц]: +1.0 блок безопасной высоты падения",
+        "color": "white",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{trim_lore_mat:\"quartz\"}"
+  }
+]

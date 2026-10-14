@@ -1,0 +1,17 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "mode": "append",
+    "lore": [
+      {
+        "text": "★ Синергия [Атлас Пустыни]: Иммунитет к кактусам, капельнику и ягодам",
+        "color": "yellow",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{trim_lore_syn:\"dune\"}"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "mode": "append",
+    "lore": [
+      {
+        "text": "◈ Материал [Лазурит]: +10% скорости в воде и +1 сек дыхания",
+        "color": "blue",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{trim_lore_mat:\"lapis\"}"
+  }
+]

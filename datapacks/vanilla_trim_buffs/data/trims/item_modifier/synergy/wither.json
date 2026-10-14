@@ -1,0 +1,17 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "mode": "append",
+    "lore": [
+      {
+        "text": "★ Синергия [Иссушающий Бастион]: Полный иммунитет к иссушению и отдача",
+        "color": "dark_red",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{trim_lore_syn:\"wither\"}"
+  }
+]

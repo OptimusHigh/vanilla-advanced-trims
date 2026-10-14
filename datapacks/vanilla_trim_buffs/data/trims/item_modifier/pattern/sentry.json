@@ -1,0 +1,17 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "mode": "replace_all",
+    "lore": [
+      {
+        "text": "◆ Узор [Страж]: Сет-бонус к твёрдости брони и стойкости (2/4, 4/4)",
+        "color": "dark_gray",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{trim_lore_pat:\"sentry\"}"
+  }
+]

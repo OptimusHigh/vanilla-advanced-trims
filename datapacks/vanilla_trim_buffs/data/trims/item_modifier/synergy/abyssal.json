@@ -1,0 +1,17 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "mode": "append",
+    "lore": [
+      {
+        "text": "★ Синергия [Глубинный Владыка]: Дыхание глубин и кристальное зрение в воде",
+        "color": "blue",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{trim_lore_syn:\"abyssal\"}"
+  }
+]

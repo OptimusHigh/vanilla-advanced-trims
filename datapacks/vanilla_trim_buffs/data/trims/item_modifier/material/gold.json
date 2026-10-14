@@ -1,0 +1,17 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "mode": "append",
+    "lore": [
+      {
+        "text": "◈ Материал [Золото]: +5% к скорости разрушения блоков",
+        "color": "yellow",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{trim_lore_mat:\"gold\"}"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "mode": "replace_all",
+    "lore": [
+      {
+        "text": "◆ Узор [Ведущий]: Сет-бонус к удаче и маскировке от мобов (2/4, 4/4)",
+        "color": "light_purple",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{trim_lore_pat:\"host\"}"
+  }
+]

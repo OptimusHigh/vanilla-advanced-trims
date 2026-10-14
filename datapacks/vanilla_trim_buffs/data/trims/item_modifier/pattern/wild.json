@@ -1,0 +1,17 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "mode": "replace_all",
+    "lore": [
+      {
+        "text": "◆ Узор [Дикий]: Сет-бонус к мобильности и скорости атаки (2/4, 4/4)",
+        "color": "green",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{trim_lore_pat:\"wild\"}"
+  }
+]

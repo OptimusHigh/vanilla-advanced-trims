@@ -1,0 +1,17 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "mode": "append",
+    "lore": [
+      {
+        "text": "★ Синергия [Тень Вардена]: Бесшумный бег на Shift и стелс-реген",
+        "color": "light_purple",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{trim_lore_syn:\"warden\"}"
+  }
+]

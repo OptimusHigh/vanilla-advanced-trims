@@ -1,0 +1,17 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "mode": "append",
+    "lore": [
+      {
+        "text": "★ Синергия [Око Бездны]: Ночное зрение во тьме на Shift",
+        "color": "green",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{trim_lore_syn:\"void_eye\"}"
+  }
+]

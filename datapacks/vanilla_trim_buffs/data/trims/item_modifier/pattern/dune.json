@@ -1,0 +1,17 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "mode": "replace_all",
+    "lore": [
+      {
+        "text": "◆ Узор [Дюнный]: Сет-бонус к авто-шагу и проходимости (2/4, 4/4)",
+        "color": "yellow",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{trim_lore_pat:\"dune\"}"
+  }
+]
