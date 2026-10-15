@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "trim_trades:buy_sentry",
+    "trim_trades:buy_dune",
+    "trim_trades:buy_coast",
+    "trim_trades:buy_wild",
+    "trim_trades:buy_wayfinder",
+    "trim_trades:buy_raiser",
+    "trim_trades:buy_shaper",
+    "trim_trades:buy_host",
+    "trim_trades:buy_vex",
+    "trim_trades:buy_tide",
+    "trim_trades:buy_snout",
+    "trim_trades:buy_rib",
+    "trim_trades:buy_eye",
+    "trim_trades:buy_spire",
+    "trim_trades:buy_bolt",
+    "trim_trades:buy_flow",
+    "trim_trades:buy_ward",
+    "trim_trades:buy_silence",
+    "trim_trades:buy_netherite_upgrade"
+  ]
+}

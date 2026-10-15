@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "trim_trades:buy_vex",
+    "trim_trades:buy_tide",
+    "trim_trades:buy_snout",
+    "trim_trades:buy_rib",
+    "trim_trades:buy_eye",
+    "trim_trades:buy_spire",
+    "trim_trades:buy_bolt",
+    "trim_trades:buy_flow"
+  ]
+}

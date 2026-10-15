@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "trim_trades:buy_sentry",
+    "trim_trades:buy_dune",
+    "trim_trades:buy_coast",
+    "trim_trades:buy_wild",
+    "trim_trades:buy_wayfinder",
+    "trim_trades:buy_raiser",
+    "trim_trades:buy_shaper",
+    "trim_trades:buy_host"
+  ]
+}

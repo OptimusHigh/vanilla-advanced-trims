@@ -1,0 +1,12 @@
+{
+  "wants": {
+    "id": "minecraft:spire_armor_trim_smithing_template"
+  },
+  "gives": {
+    "id": "minecraft:emerald",
+    "count": 16
+  },
+  "max_uses": 8,
+  "reputation_discount": 0.05,
+  "xp": 20
+}

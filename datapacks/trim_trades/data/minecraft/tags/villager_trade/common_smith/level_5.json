@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "trim_trades:buy_ward",
+    "trim_trades:buy_silence",
+    "trim_trades:buy_netherite_upgrade"
+  ]
+}

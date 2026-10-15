@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "pack_format": 61,
+    "supported_formats": [
+      48,
+      81
+    ],
+    "description": "Trim Trades - Blacksmiths and Wandering Traders buy Armor Trims (26.3)"
+  }
+}
