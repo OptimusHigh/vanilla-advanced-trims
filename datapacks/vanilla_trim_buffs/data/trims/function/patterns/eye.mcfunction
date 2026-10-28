@@ -6,7 +6,7 @@ execute if items entity @s armor.legs *[minecraft:trim~{pattern:"minecraft:eye"}
 execute if items entity @s armor.feet *[minecraft:trim~{pattern:"minecraft:eye"}] run scoreboard players add @s trims.count 1
 
 # Малый сет-бонус (2+ предмета) - Уникальный ID для поддержки билдов 2+2
-execute if score @s trims.count matches 2.. run attribute @s minecraft:entity_interaction_range modifier add trims:set_2pc_eye 0.5 add_value
+execute if score @s trims.count matches 2.. run attribute @s minecraft:entity_interaction_range modifier add trims:set_2pc_eye 0.3 add_value
 execute if score @s trims.count matches 2.. run tag @s add trims.has_set_2pc
 
 # Полный сет-бонус (4 предмета)

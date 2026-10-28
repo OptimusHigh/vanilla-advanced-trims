@@ -10,6 +10,6 @@ execute if score @s trims.count matches 2.. run attribute @s minecraft:knockback
 execute if score @s trims.count matches 2.. run tag @s add trims.has_set_2pc
 
 # Полный сет-бонус (4 предмета)
-execute if score @s trims.count matches 4 run attribute @s minecraft:armor_toughness modifier add trims:set_4pc 1.5 add_value
+execute if score @s trims.count matches 4 run attribute @s minecraft:armor_toughness modifier add trims:set_4pc 2.5 add_value
 execute if score @s trims.count matches 4 run attribute @s minecraft:attack_knockback modifier add trims:set_4pc 0.25 add_value
 execute if score @s trims.count matches 4 run tag @s add trims.has_set_4pc

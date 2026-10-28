@@ -11,5 +11,5 @@ execute if score @s trims.count matches 2.. run tag @s add trims.has_set_2pc
 
 # Полный сет-бонус (4 предмета)
 execute if score @s trims.count matches 4 run attribute @s minecraft:water_movement_efficiency modifier add trims:set_4pc 0.35 add_multiplied_base
-execute if score @s trims.count matches 4 run attribute @s minecraft:attack_damage modifier add trims:set_4pc 1.0 add_value
+execute if score @s trims.count matches 4 run attribute @s minecraft:attack_damage modifier add trims:set_4pc 0.5 add_value
 execute if score @s trims.count matches 4 run tag @s add trims.has_set_4pc

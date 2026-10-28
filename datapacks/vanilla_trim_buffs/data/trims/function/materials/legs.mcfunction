@@ -15,9 +15,8 @@ execute if items entity @s armor.legs *[minecraft:trim~{material:"minecraft:gold
 # 4. Redstone (+2.5% скорости бега)
 execute if items entity @s armor.legs *[minecraft:trim~{material:"minecraft:redstone"}] run attribute @s minecraft:movement_speed modifier add trims:legs_mat 0.025 add_multiplied_base
 
-# 5. Lapis (+10% скорости в воде, +1 сек дыхания)
+# 5. Lapis (+10% скорости в воде)
 execute if items entity @s armor.legs *[minecraft:trim~{material:"minecraft:lapis"}] run attribute @s minecraft:water_movement_efficiency modifier add trims:legs_mat 0.10 add_multiplied_base
-execute if items entity @s armor.legs *[minecraft:trim~{material:"minecraft:lapis"}] run attribute @s minecraft:oxygen_bonus modifier add trims:legs_mat 1.0 add_value
 
 # 6. Quartz (+1.0 блок безопасного падения)
 execute if items entity @s armor.legs *[minecraft:trim~{material:"minecraft:quartz"}] run attribute @s minecraft:safe_fall_distance modifier add trims:legs_mat 1.0 add_value
@@ -31,9 +30,8 @@ execute if items entity @s armor.legs *[minecraft:trim~{material:"minecraft:amet
 # 9. Diamond (+1.0 HP / 0.5 сердца)
 execute if items entity @s armor.legs *[minecraft:trim~{material:"minecraft:diamond"}] run attribute @s minecraft:max_health modifier add trims:legs_mat 1.0 add_value
 
-# 10. Netherite (-15% времени горения, +10% резиста взрывам)
+# 10. Netherite (-15% времени горения)
 execute if items entity @s armor.legs *[minecraft:trim~{material:"minecraft:netherite"}] run attribute @s minecraft:burning_time modifier add trims:legs_mat -0.15 add_multiplied_base
-execute if items entity @s armor.legs *[minecraft:trim~{material:"minecraft:netherite"}] run attribute @s minecraft:explosion_knockback_resistance modifier add trims:legs_mat 0.10 add_value
 
 # 11. Resin (+0.25 блока дальности взаимодействия)
 execute if items entity @s armor.legs *[minecraft:trim~{material:"minecraft:resin"}] run attribute @s minecraft:block_interaction_range modifier add trims:legs_mat 0.25 add_value

@@ -9,13 +9,11 @@ attribute @s minecraft:step_height modifier remove trims:head_mat
 attribute @s minecraft:block_break_speed modifier remove trims:head_mat
 attribute @s minecraft:movement_speed modifier remove trims:head_mat
 attribute @s minecraft:water_movement_efficiency modifier remove trims:head_mat
-attribute @s minecraft:oxygen_bonus modifier remove trims:head_mat
 attribute @s minecraft:safe_fall_distance modifier remove trims:head_mat
 attribute @s minecraft:luck modifier remove trims:head_mat
 attribute @s minecraft:sneaking_speed modifier remove trims:head_mat
 attribute @s minecraft:max_health modifier remove trims:head_mat
 attribute @s minecraft:burning_time modifier remove trims:head_mat
-attribute @s minecraft:explosion_knockback_resistance modifier remove trims:head_mat
 attribute @s minecraft:block_interaction_range modifier remove trims:head_mat
 
 # Слот chest
@@ -24,13 +22,11 @@ attribute @s minecraft:step_height modifier remove trims:chest_mat
 attribute @s minecraft:block_break_speed modifier remove trims:chest_mat
 attribute @s minecraft:movement_speed modifier remove trims:chest_mat
 attribute @s minecraft:water_movement_efficiency modifier remove trims:chest_mat
-attribute @s minecraft:oxygen_bonus modifier remove trims:chest_mat
 attribute @s minecraft:safe_fall_distance modifier remove trims:chest_mat
 attribute @s minecraft:luck modifier remove trims:chest_mat
 attribute @s minecraft:sneaking_speed modifier remove trims:chest_mat
 attribute @s minecraft:max_health modifier remove trims:chest_mat
 attribute @s minecraft:burning_time modifier remove trims:chest_mat
-attribute @s minecraft:explosion_knockback_resistance modifier remove trims:chest_mat
 attribute @s minecraft:block_interaction_range modifier remove trims:chest_mat
 
 # Слот legs
@@ -39,13 +35,11 @@ attribute @s minecraft:step_height modifier remove trims:legs_mat
 attribute @s minecraft:block_break_speed modifier remove trims:legs_mat
 attribute @s minecraft:movement_speed modifier remove trims:legs_mat
 attribute @s minecraft:water_movement_efficiency modifier remove trims:legs_mat
-attribute @s minecraft:oxygen_bonus modifier remove trims:legs_mat
 attribute @s minecraft:safe_fall_distance modifier remove trims:legs_mat
 attribute @s minecraft:luck modifier remove trims:legs_mat
 attribute @s minecraft:sneaking_speed modifier remove trims:legs_mat
 attribute @s minecraft:max_health modifier remove trims:legs_mat
 attribute @s minecraft:burning_time modifier remove trims:legs_mat
-attribute @s minecraft:explosion_knockback_resistance modifier remove trims:legs_mat
 attribute @s minecraft:block_interaction_range modifier remove trims:legs_mat
 
 # Слот feet
@@ -54,13 +48,11 @@ attribute @s minecraft:step_height modifier remove trims:feet_mat
 attribute @s minecraft:block_break_speed modifier remove trims:feet_mat
 attribute @s minecraft:movement_speed modifier remove trims:feet_mat
 attribute @s minecraft:water_movement_efficiency modifier remove trims:feet_mat
-attribute @s minecraft:oxygen_bonus modifier remove trims:feet_mat
 attribute @s minecraft:safe_fall_distance modifier remove trims:feet_mat
 attribute @s minecraft:luck modifier remove trims:feet_mat
 attribute @s minecraft:sneaking_speed modifier remove trims:feet_mat
 attribute @s minecraft:max_health modifier remove trims:feet_mat
 attribute @s minecraft:burning_time modifier remove trims:feet_mat
-attribute @s minecraft:explosion_knockback_resistance modifier remove trims:feet_mat
 attribute @s minecraft:block_interaction_range modifier remove trims:feet_mat
 
 # 2. Сброс уникальных малых сет-бонусов (trims:set_2pc_<pattern>) для поддержки 2+2
@@ -103,18 +95,20 @@ attribute @s minecraft:attack_speed modifier remove trims:set_4pc
 attribute @s minecraft:entity_interaction_range modifier remove trims:set_4pc
 attribute @s minecraft:sneaking_speed modifier remove trims:set_4pc
 attribute @s minecraft:knockback_resistance modifier remove trims:set_4pc
+attribute @s minecraft:jump_strength modifier remove trims:set_4pc
+attribute @s minecraft:bounciness modifier remove trims:set_4pc
 
 # 4. Сброс синергий (trims:synergy_<slot>)
 attribute @s minecraft:oxygen_bonus modifier remove trims:synergy_head
 attribute @s minecraft:burning_time modifier remove trims:synergy_chest
 attribute @s minecraft:block_interaction_range modifier remove trims:synergy_chest
 attribute @s minecraft:mining_efficiency modifier remove trims:synergy_chest
-attribute @s minecraft:knockback_resistance modifier remove trims:synergy_chest
+attribute @s minecraft:max_absorption modifier remove trims:synergy_chest
 attribute @s minecraft:sneaking_speed modifier remove trims:synergy_legs
 attribute @s minecraft:knockback_resistance modifier remove trims:synergy_legs
 attribute @s minecraft:step_height modifier remove trims:synergy_feet
 attribute @s minecraft:safe_fall_distance modifier remove trims:synergy_feet
-attribute @s minecraft:movement_speed modifier remove trims:synergy_feet
+attribute @s minecraft:attack_speed modifier remove trims:synergy_feet
 attribute @s minecraft:fall_damage_multiplier modifier remove trims:synergy_feet
 
 # 5. Сброс скорбордов

@@ -11,5 +11,5 @@ execute if score @s trims.count matches 2.. run tag @s add trims.has_set_2pc
 
 # Полный сет-бонус (4 предмета)
 execute if score @s trims.count matches 4 run attribute @s minecraft:gravity modifier add trims:set_4pc -0.10 add_multiplied_base
-execute if score @s trims.count matches 4 run attribute @s minecraft:movement_speed modifier add trims:set_4pc 0.05 add_multiplied_base
+execute if score @s trims.count matches 4 run attribute @s minecraft:bounciness modifier add trims:set_4pc 0.4 add_value
 execute if score @s trims.count matches 4 run tag @s add trims.has_set_4pc
