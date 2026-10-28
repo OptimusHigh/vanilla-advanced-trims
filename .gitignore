@@ -3,3 +3,5 @@ _player.class
 _livingentity.class
 rcon_client.py
 rcon_test.py
+__pycache__/
+*.pyc
